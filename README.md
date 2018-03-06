@@ -1,5 +1,5 @@
 # supervisor-httpd-vsftpd
-This repository defines a docker image for an Apache and FTP Server with Supervisor. This image is based on vsftpd and httpd. You can configure the Supervisor user and password using environment variables $USER and $PASSWORD, and mount a volume "/ftp" where files will be put.
+This repository defines a docker image for an Apache and FTP Server with Supervisor. This image is based on vsftpd and httpd. You can configure the Supervisor user and password using environment variables $USER and $PASSWORD, and mount a volume "/vat/ftp" where files will be put.
 
 ## Base Docker Image
 * centos
